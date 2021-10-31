@@ -711,3 +711,116 @@ a:hover {
   transition: opacity .3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   z-index: 9999999;
 }
+
+.cursor {
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+  mix-blend-mode: difference;
+}
+
+.cursor1 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  mix-blend-mode: difference;
+}
+
+.cursor1.expand {
+  background-color: #fff;
+  border: 0;
+  mix-blend-mode: difference;
+  transform: translate(-50%, -50%) scale(1.6);
+  -webkit-transform: translate(-50%, -50%) scale(1.6);
+  -moz-transform: translate(-50%, -50%) scale(1.6);
+  -ms-transform: translate(-50%, -50%) scale(1.6);
+  -o-transform: translate(-50%, -50%) scale(1.6);
+}
+
+.cursor1.drag::before,
+.cursor1.drag::after {
+  color: #000;
+  font-family: 'fonticons';
+  font-size: .6rem;
+  margin-top: -.6rem;
+  position: absolute;
+  top: 50%;
+}
+
+.cursor1.drag::before {
+  content: '\e801';
+  left: -10px;
+}
+
+.cursor1.drag::after {
+  content: '\e803';
+  right: -10px;
+}
+
+.cursorDrag {
+  cursor: none !important;
+}
+
+.cursor1.explore {
+  width: 100px;
+  height: 100px;
+  background: url("../img/click.svg") no-repeat center center;
+  border: 0;
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  margin-left: -50px;
+  margin-top: -50px;
+  mix-blend-mode: normal;
+}
+
+.cursor1.zoom {
+  width: 100px;
+  height: 100px;
+  background: url("../img/zoom.svg") no-repeat center center;
+  border: 0;
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  margin-left: -50px;
+  margin-top: -50px;
+  mix-blend-mode: normal;
+}
+
+.cursor1.next {
+  width: 100px;
+  height: 100px;
+  background: url("../img/next.svg") no-repeat center center;
+  border: 0;
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  margin-left: -50px;
+  margin-top: -50px;
+  mix-blend-mode: normal;
+}
+
+.cursor1.prev {
+  width: 100px;
+  height: 100px;
+  background: url("../img/prev.svg") no-repeat center center;
+  border: 0;
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  margin-left: -50px;
+  margin-top: -50px;
+  mix-blend-mode: normal;
+}
