@@ -1,0 +1,249 @@
+@media (max-width: 575.98px) {
+    .work-slide-item {
+      height: 80vh;
+    }
+    .menu__toggler,
+    .menus {
+      display: none;
+    }
+    .service-text h3 {
+      font-size: 16px;
+    }
+    .about-text h3 {
+      font-size: 20px;
+    }
+    .about-text p {
+      font-size: 14px;
+    }
+    .between {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .address-menu {
+      display: none;
+    }
+    .menu li {
+      color: #fff;
+    }
+    .menu li p {
+      display: none;
+    }
+    .toggle-btn {
+      margin-top: 5vh;
+    }
+    .logo {
+      margin-top: 5vh;
+    }
+    .main-head h1 {
+      font-size: 30px;
+    }
+    .sub-abt {
+      display: none;
+    }
+    p.abt-text {
+      font-size: 16px;
+    }
+    .main-title h2 {
+      font-size: 28px;
+    }
+    .folio-content .folio-item {
+      margin-top: 40px;
+    }
+    .folio-content .folio-item .text-folio h2.text-1 {
+      font-size: 30px;
+    }
+    .folio-content .folio-item .text-folio h2.text-2 {
+      font-size: 30px;
+    }
+    .img-about {
+      display: none;
+    }
+    .abt-text {
+      padding: 0;
+      margin-left: 0;
+    }
+    .abt-text p {
+      font-size: 14px;
+    }
+    .blog-item {
+      padding: 0 20px;
+    }
+    .scr {
+      display: none;
+    }
+    .article h3 {
+      font-size: 20px;
+    }
+    .work-slide-item {
+      width: 100%;
+    }
+    .img-slide {
+      width: 90%;
+      position: relative;
+    }
+    .img-slide img {
+      height: 100%;
+    }
+    .text-slide {
+      height: 40px;
+      position: relative;
+      overflow: hidden;
+      left: 0;
+      margin-top: 20px;
+    }
+    .text-slide h2.text-1 {
+      position: relative;
+      color: #fff;
+      font-weight: 900;
+      font-size: 35px;
+      z-index: 4;
+      margin: 0;
+      pointer-events: none;
+    }
+    .text-slide h2.text-2 {
+      display: none;
+    }
+    .next-project h3 {
+      font-size: 30px;
+    }
+    section {
+      padding: 50px 0;
+    }
+    .partner {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .blog-text {
+      padding: 0 10px 0 0;
+    }
+    .blog-text h3 {
+      font-size: 20px;
+    }
+    .blog-text p {
+      font-size: 14px;
+    }
+    h3.detail-title {
+      font-size: 30px;
+    }
+  }
+  
+  /* // Extra small devices (portrait phones, less than 576px) */
+  @media (min-width: 575.98px) and (max-width: 767.98px) {
+    h3.detail-title {
+      font-size: 36px;
+    }
+    .partner {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .address-menu {
+      display: none;
+    }
+    .menu li {
+      color: #fff;
+    }
+    .menu li p {
+      display: none;
+    }
+    .main-title h2 {
+      font-size: 30px;
+    }
+    .img-about {
+      display: none;
+    }
+    .abt-text {
+      padding: 0;
+      margin-left: 0;
+    }
+    .abt-text p {
+      font-size: 14px;
+    }
+    .main-head h1 {
+      font-size: 40px;
+    }
+    .menu__toggler,
+    .menus {
+      display: none;
+    }
+    .main-head h1 {
+      font-size: 50px;
+    }
+    section {
+      padding: 70px 0;
+    }
+    .img-slide {
+      width: 90%;
+      position: relative;
+    }
+    .img-slide img {
+      height: 100%;
+    }
+    .text-slide {
+      height: 40px;
+      position: relative;
+      overflow: hidden;
+      left: 0;
+      margin-top: 20px;
+    }
+    .text-slide h2.text-1 {
+      position: relative;
+      color: #fff;
+      font-weight: 900;
+      font-size: 35px;
+      z-index: 4;
+      margin: 0;
+      pointer-events: none;
+    }
+    .text-slide h2.text-2 {
+      display: none;
+    }
+    .folio-content .folio-item {
+      margin-top: 40px;
+    }
+    .folio-content .folio-item .text-folio h2.text-1 {
+      font-size: 40px;
+    }
+    .folio-content .folio-item .text-folio h2.text-2 {
+      font-size: 40px;
+    }
+    .next-project h3 {
+      font-size: 40px;
+    }
+  }
+  
+  /* // Small devices (landscape phones, less than 768px) */
+  @media (min-width: 767.98px) and (max-width: 991.98px) {
+    .main-title h2 {
+      font-size: 35px;
+    }
+    .main-head h1 {
+      font-size: 50px;
+    }
+    .menu__toggler,
+    .menus {
+      display: none;
+    }
+    .img-about {
+      display: none;
+    }
+    .abt-text {
+      padding: 20px;
+      margin-left: 0;
+    }
+    .abt-text p {
+      font-size: 15px;
+    }
+    section {
+      padding: 70px 0;
+    }
+  }
+  
+  /* // Medium devices (tablets, less than 992px) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    section {
+      padding: 100px 0;
+    }
+  }
+  
+  /* // Large devices (desktops, less than 1200px) RETINA */
+  /*# sourceMappingURL=responsive.css.map */
