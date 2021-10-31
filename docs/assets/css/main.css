@@ -688,3 +688,26 @@ a:hover {
   a {
     cursor: none;
   }
+
+
+  /* ==================================================
+
+  3 - CURSOR
+
+  =====================================================*/
+.cursor,
+.cursor1 {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: opacity .3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: opacity .3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: opacity .3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity .3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  z-index: 9999999;
+}
