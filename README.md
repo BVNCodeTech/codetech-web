@@ -1,4 +1,4 @@
-![CodeTech Logo](https://github.com/sortedcord/codetech/blob/master/docs/assets/img/CODETECH.svg)
+![CodeTech Logo](https://github.com/sortedcord/codetech/blob/master/docs/assets/img/CODETECH.png)
 
 # Site Documentation
 
