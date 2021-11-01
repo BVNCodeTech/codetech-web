@@ -129,7 +129,7 @@
 
 
     //--------------------------------------------------
-    // Animation on navbar scrolling background
+    // Animation on navbar scrolling backgroundbt
     //--------------------------------------------------
     var wind = $(window);
 
