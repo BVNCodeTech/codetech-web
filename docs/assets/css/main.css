@@ -1012,3 +1012,33 @@ h1.title {
 .folio-content .folio-item .img-folio a {
   cursor: none;
 }
+
+.folio-content .folio-item .img-folio img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.folio-content .folio-item .img-folio:hover img {
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.folio-content .folio-item .text-folio h2.text-1 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  color: transparent;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px #fff;
+  z-index: 4;
+  left: 50%;
+  bottom: 1px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
