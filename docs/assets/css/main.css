@@ -824,3 +824,119 @@ a:hover {
   margin-top: -50px;
   mix-blend-mode: normal;
 }
+
+/* ==================================================
+
+4 - HEADER
+
+=====================================================*/
+.scrolls {
+  z-index: 10;
+  position: absolute;
+  top: calc(90vh - 50px);
+  left: calc(50% - 50px);
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.bg-right {
+  background: #000;
+  z-index: 3;
+  position: fixed;
+  transform: translate(-50%, -50%) skew(20deg);
+  -webkit-transform: translate(-50%, -50%) skew(20deg);
+  -moz-transform: translate(-50%, -50%) skew(20deg);
+  -ms-transform: translate(-50%, -50%) skew(20deg);
+  -o-transform: translate(-50%, -50%) skew(20deg);
+  text-align: center;
+  left: 50%;
+  height: 80vh;
+  width: 20vw;
+  top: 50vh;
+}
+
+.bg-3 {
+  background: url("../img/home.jpg") center no-repeat;
+  background-size: cover;
+  z-index: 3;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+  left: 50%;
+  height: 60vh;
+  width: 40vw;
+  top: 50vh;
+}
+
+.heading-text-front {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+  left: 50%;
+  width: 90%;
+  top: 50%;
+  z-index: 4;
+}
+
+.heading-text-front h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: transparent;
+  font-weight: 900;
+  font-size: 60px;
+  -webkit-text-stroke: 1px #fff;
+  letter-spacing: 1px;
+}
+
+.heading-text-back {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+  left: 50%;
+  width: 90%;
+  top: 50%;
+  z-index: -1;
+}
+
+.heading-text-back h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  font-size: 60px;
+  -webkit-text-stroke: 0px #fff;
+  letter-spacing: 1px;
+}
+
+.main-head {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.main-head .container {
+  position: relative;
+}
+
+h1.title {
+  font-size: 90px;
+}
