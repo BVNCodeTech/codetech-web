@@ -962,3 +962,34 @@ h1.title {
             transform: rotate(360deg);
   }
 }
+
+
+/* ==================================================
+
+5 - EVENTS/PROJECTS
+
+=====================================================*/
+.main-title::before {
+  position: absolute;
+  width: 70px;
+  height: 2px;
+  background: #fff;
+  content: '';
+  bottom: -10px;
+  left: calc(50% - 35px);
+}
+
+.main-title h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.main-title h2 span {
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
