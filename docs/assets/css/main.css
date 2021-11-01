@@ -1168,3 +1168,57 @@ h1.title {
   margin: 0;
   font-weight: 700;
 }
+
+/* ==================================================
+
+7 - FOOTER
+
+=====================================================*/
+.footer {
+  z-index: -2;
+  padding: 0 0 50px 0;
+}
+
+.footer .logo-foot {
+  mix-blend-mode: difference;
+}
+
+.footer a {
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.footer .sosmed ul {
+  list-style: none;
+}
+
+.footer .sosmed ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.footer .sosmed ul li a {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer .sosmed ul li a:hover {
+  text-decoration: none;
+}
+
+.footer .mail a {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer .copyright p {
+  line-height: normal;
+  font-size: 12px;
+  margin: 5px 0 0 0;
+  color: #5c5c5c;
+}
