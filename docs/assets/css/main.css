@@ -1042,3 +1042,20 @@ h1.title {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
 }
+
+.folio-content .folio-item .text-folio h2.text-2 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 2px;
+  z-index: 1;
+  left: 50%;
+  bottom: 1px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
