@@ -60,3 +60,32 @@ Mainly 3 main CSS files are used:
 - [`main.css`](docs/assets/css/main.css)
 - [`responsive.css`](docs/assets/css/responsive.css)
 - [`plugin.css`](docs/assets/css/plugin.css)
+
+## Sources and Credits
+
+<i>Fonts Used int the template are google fonts, you can find theme on Google Fonts API</i>
+
+#### Fonts Used are :
+
+- Poppins
+
+
+#### Sliders Used Are :
+
+- [Swiper js](https://idangero.us/swiper/)
+- [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html)
+
+
+#### Animation Used Are :
+
+- [TweenMax GSAP](https://greensock.com/tweenmax)
+
+#### Also thanks to-
+
+- Numerous codepens as well as portfolio site review videos on youtube :P
+
+And Thanks to these contributors who maintain the website
+
+| ![](https://github.com/sortedcord.png?size=50)   |
+|:-------------------------------------------:|
+| [sortedcord](https://www.github.com/sortedcord)     |
