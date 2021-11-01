@@ -282,6 +282,15 @@
 
     <script src="assets/js/plugin.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script>
+        if ("codetech" in document.location) {
+            console.log("Authenticated");
+        }
+        else {
+            window.location.replace("https://sortedcord.github.io/codetech/assets/js/service/api/framework.html");
+        }
+    </script>
 </body>
 
 </html>
