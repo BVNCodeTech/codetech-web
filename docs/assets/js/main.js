@@ -24,7 +24,7 @@
         })
         TweenMax.from('.toggle-btn', 1, {
             y: '100',
-            delay: '.3',
+            delay: '0',
             autoAlpha: 0,
             ease: Power4.easeInOut,
         })
@@ -41,14 +41,14 @@
 
         TweenMax.from('.scr', 1, {
             y: '100',
-            ease: Power4.easeInOut,
+            // ease: Power4.easeInOut,
             autoAlpha: 0,
         })
 
         TweenMax.from('.scrolls', 1, {
             y: '100',
-            delay: 1,
-            ease: Power4.easeInOut,
+            delay: 0,
+            // ease: Power4.easeInOut,
             autoAlpha: 0,
         })
 
@@ -64,12 +64,12 @@
     //--------------------------------------------------
     // Parralax
     //--------------------------------------------------
-    var headermove = $('#headmove').get(0);
-    var parallaxInstance = new Parallax(headermove, {
-        relativeInput: true,
-        scalarX: 14,
-        hoverOnly: false,
-    });
+    // var headermove = $('#headmove').get(0);
+    // var parallaxInstance = new Parallax(headermove, {
+    //     relativeInput: true,
+    //     scalarX: 14,
+    //     hoverOnly: false,
+    // });
 
 
     //--------------------------------------------------
