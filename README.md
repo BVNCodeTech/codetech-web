@@ -57,6 +57,6 @@ The html template uses Bootstrap v4.0.0 with HTML5 tags.It's got a responisve la
 ## CSS Files and Structure
 
 Mainly 3 main CSS files are used:
-- `main.css`
-- `responsive.css`
-- `plugin.css`
+- [`main.css`](docs/assets/css/main.css)
+- [`responsive.css`](docs/assets/css/responsive.css)
+- [`plugin.css`](docs/assets/css/plugin.css)
