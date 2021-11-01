@@ -1059,3 +1059,112 @@ h1.title {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
 }
+
+/* ==================================================
+
+6 - ABOUT
+
+=====================================================*/
+.bg-about {
+  background: url("https://picsum.photos/seed/about1/1000/667") center no-repeat;
+  z-index: 3;
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  height: 30vh;
+  width: 40vw;
+  top: 20vh;
+}
+
+.bg-about-2 {
+  background: url("https://picsum.photos/seed/about2/1000/667") center no-repeat;
+  z-index: 3;
+  position: fixed;
+  text-align: center;
+  left: 10vw;
+  height: 50vh;
+  width: 30vw;
+  top: 30vh;
+}
+
+.about {
+  background: #000;
+}
+
+.about-page {
+  background: #000;
+}
+
+#img-about {
+  position: relative;
+}
+
+.img-mask {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background: #000;
+}
+
+.about-text h3 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.abt-text {
+  margin-left: -200px;
+  background: #000;
+  padding: 40px 40px;
+}
+
+.abt-text a {
+  font-size: 14px;
+  color: #5c5c5c;
+  font-weight: 900;
+  position: relative;
+}
+
+.abt-text a::after {
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  content: '';
+  top: 10px;
+  margin-left: 5px;
+  background: #5c5c5c;
+  transition: all ease-in-out .3s;
+  -webkit-transition: all ease-in-out .3s;
+  -moz-transition: all ease-in-out .3s;
+  -ms-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+}
+
+.abt-text a:hover {
+  text-decoration: none;
+}
+
+.abt-text a:hover::after {
+  margin-left: 15px;
+}
+
+.sub-abt {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: rotate(90deg) translateY(-50%) translateX(-50%);
+  -webkit-transform: rotate(90deg) translateY(-50%) translateX(-50%);
+  -moz-transform: rotate(90deg) translateY(-50%) translateX(-50%);
+  -ms-transform: rotate(90deg) translateY(-50%) translateX(-50%);
+  -o-transform: rotate(90deg) translateY(-50%) translateX(-50%);
+}
+
+.sub-abt p {
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+}
