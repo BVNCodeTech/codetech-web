@@ -1,2 +1,1 @@
-# codetech
-Front-end for CodeTech
+![CodeTech Logo](docs/assets/img/CODETECH.svg)
