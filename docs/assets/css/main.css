@@ -993,3 +993,22 @@ h1.title {
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
 }
+
+.folio-content {
+  background: #000;
+}
+
+.folio-content .folio-item {
+  margin-top: 100px;
+  position: relative;
+  padding: 0 20px;
+}
+
+.folio-content .folio-item .img-folio {
+  z-index: 2;
+  position: relative;
+}
+
+.folio-content .folio-item .img-folio a {
+  cursor: none;
+}
