@@ -5,38 +5,38 @@
     // Preloader
     //--------------------------------------------------
     $(window).on('load', function () {
-        $('.preloader').fadeOut('slow');
-        RevealLoad();
-        startAnim();
-        $('.preloader').removeClass()
-    })
-
-
-    //--------------------------------------------------
-    // Animation Start
-    //--------------------------------------------------
-    function startAnim() {
-        TweenMax.from('.logo', 1, {
-            y: '100',
-            autoAlpha: 0,
-            delay: '.3',
-            ease: Power4.easeInOut,
-        })
-        TweenMax.from('.toggle-btn', 1, {
-            y: '100',
-            delay: '0',
-            autoAlpha: 0,
-            ease: Power4.easeInOut,
-        })
-        TweenMax.from('.bg-right', 1, {
-            x: 100,
-            ease: Power4.easeInOut,
-            delay: '.3',
-        })
-        TweenMax.from('.bg-about', 1, {
-            x: 100,
-            ease: Power4.easeInOut,
-            delay: '.3',
+        $('.preloader').fadeOut('slow');    
+        RevealLoad();   
+        startAnim();    
+        $('.preloader').removeClass()   
+    })  
+    
+    
+    //--------------------------------------------------    
+    // Animation Start  
+    //--------------------------------------------------    
+    function startAnim() {  
+        TweenMax.from('.logo', 1, { 
+            y: '100',   
+            autoAlpha: 0,   
+            delay: '.3',    
+            ease: Power4.easeInOut, 
+        })  
+        TweenMax.from('.toggle-btn', 1, {   
+            y: '100',   
+            delay: '0', 
+            autoAlpha: 0,   
+            ease: Power4.easeInOut, 
+        })  
+        TweenMax.from('.bg-right', 1, { 
+            x: 100, 
+            ease: Power4.easeInOut, 
+            delay: '.3',    
+        })  
+        TweenMax.from('.bg-about', 1, { 
+            x: 100, 
+            ease: Power4.easeInOut, 
+            delay: '.3',    
         })
 
         TweenMax.from('.scr', 1, {
@@ -59,17 +59,6 @@
 
 
     }
-
-
-    //--------------------------------------------------
-    // Parralax
-    //--------------------------------------------------
-    // var headermove = $('#headmove').get(0);
-    // var parallaxInstance = new Parallax(headermove, {
-    //     relativeInput: true,
-    //     scalarX: 14,
-    //     hoverOnly: false,
-    // });
 
 
     //--------------------------------------------------
@@ -129,7 +118,7 @@
 
 
     //--------------------------------------------------
-    // Animation on navbar scrolling backgroundbt
+    // Animation on navbar scrolling background
     //--------------------------------------------------
     var wind = $(window);
 
