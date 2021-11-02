@@ -1388,7 +1388,7 @@ h3.detail-title {
 
 =====================================================*/
 .bg-work {
-  background: url("../img/port/1.jpg") center no-repeat;
+  background: url("https://picsum.photos/seed/work1/600/660?blur=2") center no-repeat;
   z-index: 3;
   position: fixed;
   text-align: center;
@@ -1399,7 +1399,7 @@ h3.detail-title {
 }
 
 .bg-work-2 {
-  background: url("../img/port/3.jpg") center no-repeat;
+  background: url("https://picsum.photos/seed/work2/600/660?blur=2") center no-repeat;
   z-index: 3;
   position: fixed;
   text-align: center;
