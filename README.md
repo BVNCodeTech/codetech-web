@@ -1,5 +1,5 @@
 <br><br><br>
-<h1 align="center"><img src="https://github.com/sortedcord/codetech/blob/master/docs/assets/img/web.png" align="center"></h1>
+<h3 align="center"><img src="https://github.com/sortedcord/codetech/blob/master/docs/assets/img/web.png" align="center"></h1>
 
 
 # Site Documentation
