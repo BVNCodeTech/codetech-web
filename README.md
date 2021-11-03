@@ -1,4 +1,4 @@
-![CodeTech Logo](https://github.com/sortedcord/codetech/blob/master/docs/assets/img/CODETECH.png)
+![CodeTech Logo](https://github.com/sortedcord/codetech/blob/master/docs/assets/img/web.png)
 
 # Site Documentation
 
@@ -57,9 +57,9 @@ The html template uses Bootstrap v4.0.0 with HTML5 tags.It's got a responisve la
 ## CSS Files and Structure
 
 Mainly 3 main CSS files are used:
-- [`main.css`](docs/assets/css/main.css)
-- [`responsive.css`](docs/assets/css/responsive.css)
-- [`plugin.css`](docs/assets/css/plugin.css)
+- [`main.css`](docs/assets/css/main.css) Contains the main style with respective sections. There are page-specific sections that only apply to particular layouts as well as global section which apply styles to all pages.
+- [`responsive.css`](docs/assets/css/responsive.css) - Media queries for smaller viewports
+- [`plugin.css`](docs/assets/css/plugin.css) - Bootstrap Base Library
 
 ## Sources and Credits
 
