@@ -86,7 +86,9 @@ Mainly 3 main CSS files are used:
 
 - [Lorem Picsum](https://picsum.photos/) for providing placeholder images.
 - Numerous codepens as well as portfolio site review videos on youtube :P The list includes them but are not limited to:
- - [Custom Cursor](https://codepen.io/hannes-v/pen/JjyvmjJ)
+    - [Custom Cursor](https://codepen.io/hannes-v/pen/JjyvmjJ)
+    - [Traversy Media's Smooth Scrolling Landing Page Tutorial](https://www.youtube.com/watch?v=y9nlfqT4s9s)
+    - [Parallax Effects](https://www.youtube.com/watch?v=JttTcnidSdQ)
 
 And Thanks to these contributors who maintain the website
 
