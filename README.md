@@ -84,8 +84,9 @@ Mainly 3 main CSS files are used:
 
 #### Also thanks to-
 
+- [Lorem Picsum](https://picsum.photos/) for providing placeholder images.
 - Numerous codepens as well as portfolio site review videos on youtube :P The list includes them but are not limited to:
-- - [Custom Cursor](https://codepen.io/hannes-v/pen/JjyvmjJ)
+ - [Custom Cursor](https://codepen.io/hannes-v/pen/JjyvmjJ)
 
 And Thanks to these contributors who maintain the website
 
