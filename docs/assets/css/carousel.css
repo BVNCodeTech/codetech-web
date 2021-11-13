@@ -1,14 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    color: #fff;
-    background-color: #021417;
-  }
-  
-  .container {
+    .c-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
