@@ -89,6 +89,7 @@ Mainly 3 main CSS files are used:
     - [Custom Cursor](https://codepen.io/hannes-v/pen/JjyvmjJ)
     - [Traversy Media's Smooth Scrolling Landing Page Tutorial](https://www.youtube.com/watch?v=y9nlfqT4s9s)
     - [Parallax Effects](https://www.youtube.com/watch?v=JttTcnidSdQ)
+    - [Mouse-Driven Carousel](https://codepen.io/tjezidzic/pen/BMBVbE)
 
 And Thanks to these contributors who maintain the website
 
