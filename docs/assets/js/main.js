@@ -124,7 +124,7 @@
 
     wind.on("scroll", function () {
         var bodyScroll = wind.scrollTop();
-
+        $("header").stop();
         if (bodyScroll > 300) {
 
             TweenMax.to('.scr', .5, {
