@@ -400,42 +400,42 @@
     var t1 = new TimelineMax({
         paused: true
     });
-    t1.to(".one", 0.8, {
+    t1.to(".one", 0.1, {
         y: 9,
         autoAlpha: 0,
-        ease: Expo.easeInOut
+        // ease: Expo.easeInOut
     });
-    t1.to(".two", 0.8, {
-        ease: Expo.easeInOut,
+    t1.to(".two", 0.1, {
+        // ease: Expo.easeInOut,
         delay: -1
     });
-    t1.to(".tre", 0.8, {
+    t1.to(".tre", 0.1, {
         y: -9,
         autoAlpha: 0,
-        ease: Expo.easeInOut,
+        // ease: Expo.easeInOut,
         delay: -1
     });
-    t1.to(".over-all", 1, {
+    t1.to(".over-all", 0.1, {
         autoAlpha: 1,
-        ease: Expo.easeOut,
+        // ease: Expo.easeOut,
     })
-    t1.to(".bg-nav", 1, {
+    t1.to(".bg-nav", 0.1, {
         autoAlpha: 1,
-        ease: Power4.easeOut,
+        // ease: Power4.easeOut,
         delay: -1
     })
 
 
-    t1.to(".menu", 1, {
+    t1.to(".menu", 0.1, {
         autoAlpha: 1,
-        ease: Expo.easeOut,
+        // ease: Expo.easeOut,
         delay: -1
     })
 
     t1.staggerFrom(".menu ul li", 3, {
         y: 50,
         opacity: 0,
-        ease: Power4.easeInOut,
+        // ease: Power4.easeInOut,
     }, '0.1', '-0.01');
 
 
