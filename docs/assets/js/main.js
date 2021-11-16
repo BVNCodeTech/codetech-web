@@ -170,10 +170,10 @@
     });
 
 
-    luxy.init({
-        wrapper: '#spiral',
-        wrapperSpeed: '0.07',
-    });
+    // luxy.init({
+    //     wrapper: '#spiral',
+    //     wrapperSpeed: '0.5',
+    // });
 
     //--------------------------------------------------
     // Cursor
