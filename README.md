@@ -93,6 +93,7 @@ Mainly 3 main CSS files are used:
 
 And Thanks to these contributors who maintain the website
 
-| ![](https://github.com/sortedcord.png?size=50)   |  ![](https://github.com/Pancham1603.png?size=50) |
-|:-------------------------------------------:| :-------------------------------------------:|
-| [sortedcord](https://www.github.com/sortedcord)     | [Pancham1603](https://www.github.com/pancham1603)     |
+| ![](https://github.com/sortedcord.png?size=50)   |  ![](https://github.com/Pancham1603.png?size=50) | ![](https://github.com/Im-nl.png?size=50) |
+|:-------------------------------------------:| :-------------------------------------------:|:-------------------------------------------:|
+| [sortedcord](https://www.github.com/sortedcord)     | [Pancham1603](https://www.github.com/pancham1603)     |[Im-NL](https://www.github.com/im-nl)     |
+
