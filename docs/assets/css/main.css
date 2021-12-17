@@ -1105,6 +1105,11 @@ h1.title {
   margin-bottom: 20px;
   color: #fff;
   font-weight: 800;
+  /* font-size: large; */
+}
+
+.about-text p {
+  font-size: large;
 }
 
 .abt-text {
