@@ -19,9 +19,19 @@
         color: black;
         padding: 4px;
         text-align: center;
+        font-family: monospace;
       }
       .under-dev-banner p a {
         text-decoration: none;
+      }
+      .under-dev-banner p span {
+        margin-left: 30px;
+      }
+      .under-dev-banner p span:hover {
+        font-weight: bold;
+      }
+      .invisible {
+        visibility: hidden;
       }
     </style>
   </head>
@@ -40,10 +50,10 @@
     <!-- End Preload -->
 
     <!-- Start Header -->
-    <div class="under-dev-banner">
+    <div id="dev" class="under-dev-banner">
       <p>We are currently rebuilding our website and making it completely Open-Source. 
         If you wish to contribute or simply track our progress, check out 
-        <a href="https://github.com/BVNCodeTech/codetech-web">https://github.com/BVNCodeTech/codetech-web.</a></a></p>
+        <a href="https://github.com/BVNCodeTech/codetech-web">https://github.com/BVNCodeTech/codetech-web.</a> <span> [x]  </span></p>
     </div>
     <header>
       <nav>
@@ -541,5 +551,11 @@
     <script src="assets/js/service/api/service.json"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <script src="assets/js/carousel.js"></script>
+
+    <script>
+      document.querySelector('#dev').addEventListener('click', () => {
+        document.querySelector('#dev').classList.add('invisible');
+      }); 
+    </script>
   </body>
 </html>
