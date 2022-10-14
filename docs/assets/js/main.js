@@ -8,8 +8,10 @@
         $('.preloader').fadeOut('slow');    
         RevealLoad();   
         startAnim();    
-        $('.preloader').removeClass()   
+        $('.preloader').removeClass()
+        window.scrollTo(0, 0);
     })  
+    window.scrollTo(0, 0);
     
     
     //--------------------------------------------------    

@@ -203,7 +203,6 @@
   src: local("Poppins Black Italic"), local("Poppins-BlackItalic"), url("../fonts/poppins/poppins-v5-latin-900italic.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-900italic.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-900italic.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-900italic.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-900italic.svg#Poppins") format("svg");
   /* Legacy iOS */
 }
-
 h1,
 h2,
 h3,
@@ -1265,13 +1264,6 @@ h1.title {
   margin-top: 20px;
 }
 
-.service-line {
-  margin-top: 60px;
-  width: 80px;
-  height: 3px;
-  background: #fff;
-}
-
 .service-list li {
   display: block;
   color: #fff;
@@ -1288,9 +1280,11 @@ h1.title {
   padding-right: 40px;
 }
 
+/* 
 .partner-list {
   border: 1px solid #5c5c5c;
 }
+*/
 
 .partner-list img {
   padding: 30px;
