@@ -203,6 +203,7 @@
   src: local("Poppins Black Italic"), local("Poppins-BlackItalic"), url("../fonts/poppins/poppins-v5-latin-900italic.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-900italic.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-900italic.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-900italic.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-900italic.svg#Poppins") format("svg");
   /* Legacy iOS */
 }
+
 h1,
 h2,
 h3,
@@ -1104,11 +1105,6 @@ h1.title {
   margin-bottom: 20px;
   color: #fff;
   font-weight: 800;
-  /* font-size: large; */
-}
-
-.about-text p {
-  font-size: large;
 }
 
 .abt-text {
@@ -1264,6 +1260,13 @@ h1.title {
   margin-top: 20px;
 }
 
+.service-line {
+  margin-top: 60px;
+  width: 80px;
+  height: 3px;
+  background: #fff;
+}
+
 .service-list li {
   display: block;
   color: #fff;
@@ -1280,11 +1283,9 @@ h1.title {
   padding-right: 40px;
 }
 
-/* 
 .partner-list {
   border: 1px solid #5c5c5c;
 }
-*/
 
 .partner-list img {
   padding: 30px;
@@ -1825,4 +1826,32 @@ h3.glp {
 h3.lght {
   color: #f0353c;
 }
+
+
+/* ==================================================
+
+13 - CUSTOM CSS
+
+=====================================================*/
+
+.reg-links a {
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  font-size: x-large;
+  font-weight: light;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+}
+
+.reg-links a:hover {
+  color: rgb(160, 160, 160);
+}
+
+.reg-links span {
+  color: rgb(146, 116, 255); 
+  padding-left: 5px; 
+  padding-right: 5px;
+}
+
 /*# sourceMappingURL=main.css.map */
