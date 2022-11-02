@@ -80,3 +80,12 @@ input {
   font-weight: 400;
   color: rgb(255, 255, 255);
 }
+
+.listcontainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.full {
+  width: 150%;
+}

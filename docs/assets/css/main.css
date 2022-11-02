@@ -1268,9 +1268,9 @@ h1.title {
 }
 
 .service-list li {
-  display: block;
   color: #fff;
   margin: 10px 0;
+  display: block;
 }
 
 /* ==================================================
