@@ -1855,3 +1855,19 @@ h3.lght {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.codeximg {
+  border: solid rgb(51, 51, 51) 5px;
+  border-radius: 20px;
+}
+
+.codeximg:hover {
+  border: solid rgb(146, 116, 255) 5px;
+  border-radius: 20px;
+}
+
+.photo {
+  object-fit: cover;
+  aspect-ratio: 305/433;
+  width: 100%;
+}
