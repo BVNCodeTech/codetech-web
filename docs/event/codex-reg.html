@@ -321,6 +321,7 @@
           }
 
           const submitform = () => {
+            document.body.style.cursor = "wait";
             const inputs = ["sname", "saddress", "tname", "temail", "tphone"]
             let eventinfo = {
               "PLUNDER": 3,
@@ -381,10 +382,12 @@
             }).then(res => res.json()).then(res => {
               console.log(res)
               if (res.status == "ok") {
+                document.body.style.cursor = "default";
                 alert(`Your form has been submitted successfully. Your discord access token is: ${res.code}.\nPlease keep it safe.`)
                 window.location.replace(`https://teamcodetech.in/`)
               } else {
-                alert("There was an error submitting your form. Please try again later.")
+                alert("There was an error submitting your form. Please try again later. You will now be redirected to the home page.")
+                window.location.replace(`https://teamcodetech.in/`)
               }
             })
           }
