@@ -295,6 +295,8 @@
             let eventinfo = {
               "PLUNDER": 3,
               "DESIGNATHON": 5,
+              "HACKATHON": 3,
+              "SHOWSTOPPER": 6,
               "ALGOBATTLES": 2,
               "KWIZ": 2,
               "VALORANT": 6,
@@ -373,6 +375,7 @@
               console.log(res)
               if (res.status == "ok") {
                 alert(`Your form has been submitted successfully. Your discord access token is: ${res.code}.\nPlease keep it safe.`)
+                window.location.replace(`https://teamcodetech.in/`)
               } else {
                 alert("There was an error submitting your form. Please try again later.")
               }
