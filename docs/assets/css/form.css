@@ -6,7 +6,6 @@ input {
   box-sizing: border-box;
 }
 
-
 /* The containerr */
 .containerr {
   display: block;
@@ -47,7 +46,7 @@ input {
 
 /* When the checkbox is checked, add a blue background */
 .containerr input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -83,9 +82,19 @@ input {
 
 .listcontainer {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .full {
-  width: 150%;
+  width: 200%;
+}
+
+@media (max-width: 750px) {
+  .listcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .full {
+    width: 100%;
+  }
 }
