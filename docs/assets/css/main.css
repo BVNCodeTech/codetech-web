@@ -1994,3 +1994,7 @@ h3.lght {
   aspect-ratio: 305/433;
   width: 100%;
 }
+
+.line-height-1 {
+  line-height: 1.35rem !important;
+}
