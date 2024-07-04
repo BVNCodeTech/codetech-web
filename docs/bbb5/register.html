@@ -267,6 +267,9 @@
         <script>
           output = ""
           function addevents() {
+            alert("Registeration Starts 5:00pm,, 5th July 2024")
+            return;
+            throw "error";
             let checks = document.querySelectorAll('[id=checks]');
             output = Array.from(checks).filter((check) => check.checked).map((check) => check.value);
             console.log(output)
