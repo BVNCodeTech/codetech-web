@@ -383,11 +383,11 @@
             });
 
             let finaldata = {
-              embeds: v.ref.length > 0 ? [{
+              embeds: [{
                 title: `New Registration!`,
-                description: `Referral Code: ${v.ref}`,
+                description:v.ref.length > 0 ?  `Referral Code: ${v.ref}` : "-",
                 color: 0xff0000
-              }] : []
+              }] 
             }
             events.forEach((event) => {
               var embed = {
