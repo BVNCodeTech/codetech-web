@@ -267,12 +267,17 @@
         <script>
           output = ""
           function addevents() {
-            alert("Registeration opens 5:30pm, 5/7/2024!!")
-            return;
-            throw "error";
+            // alert("Registeration opens 5:30pm, 5/7/2024!!")
+            // return;
+            // throw "error";
             let checks = document.querySelectorAll('[id=checks]');
             output = Array.from(checks).filter((check) => check.checked).map((check) => check.value);
             console.log(output)
+            if (output.length < 1) {
+              alert("Please select atleast one event!")
+              return;
+              throw "0eventerrorlmaohahahahahahfuckingidiot";
+            }
             let form = document.getElementById("eventlistform")
             let boilerplate = `
         <div class="mt-30">
@@ -288,12 +293,12 @@
         `
             let template = `
               <div class="service-text">
-                <h3>eventnamehere</h3>
+                <h1 class="text-primary">eventnamehere</h1>
               {info}
               </div>
         `
             let subtemp = `
-              <h4 class="text-dark">Participant {i}</h4>
+              <h4 class="text-white">Participant {i}</h4>
                 <ul class="service-list">
                   <li><input type="name" placeholder="Name of participant" name="name" id="p{e}{i}_name"></li>
                   <li><input type="email" placeholder="Email address of participant" name="email" id="p{e}{i}_email"></li>
@@ -315,11 +320,20 @@
             }
             output.forEach(element => {
               let temphtml = ``
+              if (eventinfo[element] > 1) {
+                temphtml += "<h5 class=\"text-white\">(If you don't have a group then leave the fields for other participants and team name empty)</h5>"
+                temphtml += `
+              <h4 class="text-primary">Team Name</h4>
+                <ul class="service-list">
+                  <li><input type="name" placeholder="Team Name" name="name" id="team${element}_name"></li>
+                </ul>`
+              }
               for (let i = 0; i < eventinfo[element]; i++) {
                 temphtml += subtemp.replaceAll('{e}', element).replaceAll('{i}', i + 1)
               }
               newhtml += template.replaceAll("{info}", temphtml).replaceAll("eventnamehere", element)
             });
+
             let finalhtml = boilerplate + newhtml + `<button type="button" class="btn btn-dark" value="Submit" style="margin-top: 3vh;" onclick="submitform()">Submit</button></div></div></div>`
             form.innerHTML = finalhtml
           }
@@ -345,15 +359,18 @@
             output.forEach(element => {
               let part = []
               for (let i = 0; i < eventinfo[element]; i++) {
-                part.push({
+                var objs = {
                   "name": document.getElementById(`p${element}${i + 1}_name`).value,
                   "class": document.getElementById(`p${element}${i + 1}_class`).value,
                   "mail": document.getElementById(`p${element}${i + 1}_email`).value,
                   "phone": document.getElementById(`p${element}${i + 1}_phone`).value
-                })
+                }
+                part.push(objs)
               }
+              console.log(document.getElementById(`team${element}_name`))
               let eventtt = {
                 "name": element,
+                "teamname": (document.getElementById(`team${element}_name`)?.value.toString().length > 0 ? document.getElementById(`team${element}_name`).value.toString() : null),
                 "part": part
               }
               events.push(eventtt)
@@ -366,21 +383,27 @@
             });
 
             let finaldata = {
-              embeds: [{
+              embeds: v.ref.length > 0 ? [{
                 title: `New Registration!`,
                 description: `Referral Code: ${v.ref}`,
                 color: 0xff0000
-              }]
+              }] : []
             }
             events.forEach((event) => {
               var embed = {
-                title: event.name,
+                title: `🧭 - ${event.name}`,
                 fields: [],
                 color: 0x0000ff
               }
+              if (event["teamname"]) {
+                embed.fields.push({
+                  name: `👉 - Team Name:`,
+                  value: event["teamname"]
+                })
+              }
               event.part.forEach((part,i) => {
                 embed.fields.push({
-                  name: `Participant ${i+1} / ${part.name}`,
+                  name: `🧛‍♂️ - Participant ${i+1}`,
                   value: `Name: ${part.name}\nClass: ${part.class}\nMail: ${part.mail}\nPhone: ${part.phone}`
                 })
               });
