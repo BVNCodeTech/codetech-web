@@ -168,45 +168,48 @@
           <div class="service-item">
             <div class="service-text">
               <div id="eventlistform">
-                <h1 style="margin-bottom: 20px;" class="text-white">Select your events</h1>
+                <h1 class="text-white pb-0 mb-0">Select your events</h1>
+                <p class="mt-0 pb-4 font-weight-bold">
+                  ( NOTE: Registrations have been closed except for BridgeCraft and Lambda )
+                </p>
                 <div class="listcontainer">
-                  <label class="containerr" style="cursor:none;"><span style="font-weight: bold">onSHOT</span>: Photography
-                  <input id="checks" value="onSHOT" type="checkbox">
+                  <label class="containerr" style="cursor:none;  text-decoration: line-through; color: red;"><span style="font-weight: bold">onSHOT</span>: Photography
+                  <input id="checks" value="onSHOT" type="checkbox" disabled>
                   <span class="checkmark"></span>
                 </label>
                 <label class="containerr" style="cursor:none;"><span style="font-weight: bold">λ (Lambda)</span>: Programming
                   <input id="checks" value="Lambda" type="checkbox">
                   <span class="checkmark"></span>
                 </label>
-                <label class="containerr" style="cursor:none;"><span style="font-weight: bold">PlayMaker</span>: Game Montage
-                  <input id="checks" value="PlayMaker" type="checkbox">
+                <label class="containerr" style="cursor:none;  text-decoration: line-through; color: red;"><span style="font-weight: bold">PlayMaker</span>: Game Montage
+                  <input id="checks" value="PlayMaker" type="checkbox" disabled>
                   <span class="checkmark"></span>
                 </label>
-                <label class="containerr" style="cursor:none;"><span style="font-weight: bold">Ctrl+Reality</span>: 3D Designing
-                  <input id="checks" value="Reality" type="checkbox">
+                <label class="containerr" style="cursor:none;  text-decoration: line-through; color: red;"><span style="font-weight: bold">Ctrl+Reality</span>: 3D Designing
+                  <input id="checks" value="Reality" type="checkbox" disabled>
                   <span class="checkmark"></span>
                 </label>
-                <label class="containerr" style="cursor:none;"><span style="font-weight: bold">ValorantReign</span>: Valorant Squads
-                  <input id="checks" value="ValorantReign" type="checkbox">
+                <label class="containerr" style="cursor:none;  text-decoration: line-through; color: red;"><span style="font-weight: bold">ValorantReign</span>: Valorant Squads
+                  <input id="checks" value="ValorantReign" type="checkbox" disabled>
                   <span class="checkmark"></span>
                 </label>
-                <label class="containerr" style="cursor:none;"><span style="font-weight: bold">SideSwipe Royale</span>: Rocket League SS
-                  <input id="checks" value="SideSwipe" type="checkbox">
+                <label class="containerr" style="cursor:none;  text-decoration: line-through; color: red;"><span style="font-weight: bold">SideSwipe Royale</span>: Rocket League SS
+                  <input id="checks" value="SideSwipe" type="checkbox" disabled>
                   <span class="checkmark"></span>
                 </label>
                 <label class="containerr" style="cursor:none;"><span style="font-weight: bold">BridgeCraft</span>: Minecraft Bridges
                   <input id="checks" value="BridgeCraft" type="checkbox">
                   <span class="checkmark"></span>
                 </label>
-                <label class="containerr" style="cursor:none;"><span style="font-weight: bold">#Pixels</span>: Instagram Designing
-                  <input id="checks" value="Pixels" type="checkbox">
+                <label class="containerr" style="cursor:none;  text-decoration: line-through; color: red;"><span style="font-weight: bold">#Pixels</span>: Instagram Designing
+                  <input id="checks" value="Pixels" type="checkbox" disabled>
                   <span class="checkmark"></span>
                 </label>
-                <label class="containerr" style="cursor:none;"><span style="font-weight: bold">WebCon</span>: Web Development
-                  <input id="checks" value="WebCon" type="checkbox">
+                <label class="containerr" style="cursor:none;  text-decoration: line-through; color: red;"><span style="font-weight: bold">WebCon</span>: Web Development
+                  <input id="checks" value="WebCon" type="checkbox" disabled>
                   <span class="checkmark"></span>
                 </label>
-                <label class="containerr" style="cursor:none;"><span style="font-weight: bold">
+                <label class="containerr" style="cursor:none;  text-decoration: line-through; color: red;"><span style="font-weight: bold">
                 </label>
                 <button type="button" class="btn btn-dark full" value="Next" style="margin-top: 3vh; cursor: none;"
                   onclick="addevents()">Next</button>
@@ -267,7 +270,7 @@
         <script>
           output = ""
           function addevents() {
-            // alert("Registeration opens 5:30pm, 5/7/2024!!")
+            // alert("Thank you for showing interest. Sorry but the registerations have been closed.")
             // return;
             // throw "error";
             let checks = document.querySelectorAll('[id=checks]');
